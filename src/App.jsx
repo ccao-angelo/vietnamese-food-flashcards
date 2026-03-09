@@ -97,7 +97,10 @@ function App() {
           <div className="progress-fill" style={{ width: `${progressPercentage}%` }}></div>
         </div>
 
-        <p className="subtitle">Press <strong>← Arrow Keys →</strong> to navigate</p>
+        <p className="subtitle">
+          <span className="desktop-hint">Press <strong>← Arrow Keys →</strong> to navigate | <strong>Space</strong> to flip</span>
+          <span className="mobile-hint">Tap card to flip</span>
+        </p>
       </header>
 
       <main className="card-scene">
