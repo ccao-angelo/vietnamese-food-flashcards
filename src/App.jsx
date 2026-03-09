@@ -47,6 +47,7 @@ function App() {
     setHistory(prev => prev.slice(0, -1));
 
     setCurrentIndex(previousIndex);
+    setIsFlipped(false);
   }, [history]);
 
   // Keyboard Navigation
@@ -107,6 +108,8 @@ function App() {
         <Flashcard
           key={flashcardsData[currentIndex].id}
           data={flashcardsData[currentIndex]}
+          isFlipped={isFlipped}
+          onFlip={handleFlip}
         />
       </main>
 
