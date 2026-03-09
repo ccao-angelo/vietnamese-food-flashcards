@@ -49,7 +49,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 ![Chau Cao  Vietnamese Food Flashcards Website Walkthrough](https://github.com/user-attachments/assets/fbff9343-7e80-43c7-a0d5-74bb2501244b)
-<img src="https://i.imgur.com/ORw95gJ.gif" title='Video Walkthrough' width='' alt='Video Walkthrough'/>
+<a href="https://i.imgur.com/ORw95gJ.gif">https://i.imgur.com/ORw95gJ.gif</a>
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
