@@ -8,6 +8,7 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [history, setHistory] = useState([]);
   const [seenCards, setSeenCards] = useState(new Set([0]));
+  const [isFlipped, setIsFlipped] = useState(false);
   const [windowDimension, setWindowDimension] = useState({width: window.innerWidth, height: window.innerHeight});
 
   // Track window size for correct confetti placement
@@ -21,6 +22,10 @@ function App() {
       window.removeEventListener("resize", detectSize);
     }
   }, [windowDimension]);
+
+  const handleFlip = useCallback(() => {
+    setIsFlipped(prev => !prev);
+  }, []);
 
   const handleNextCard = useCallback(() => {
     setHistory(prevHistory => [...prevHistory, currentIndex]);
@@ -52,7 +57,8 @@ function App() {
       } else if (e.key === "ArrowLeft") {
         handlePrevCard();
       } else if (e.code === "Space") {
-
+        e.preventDefault();
+        handleFlip();
       }
     };
 

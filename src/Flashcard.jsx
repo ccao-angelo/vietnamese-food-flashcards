@@ -1,15 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 
-function Flashcard({ data }) {
-    const [isFlipped, setIsFlipped] = useState(false);
-
-    const handleFlip = () => {
-        setIsFlipped(!isFlipped);
-    };
-
+function Flashcard({ data, isFlipped, onFlip }) {
     return (
-        <div className={`card ${isFlipped ? 'is-flipped' : ''}`} onClick={handleFlip}>
+        <div className={`card ${isFlipped ? 'is-flipped' : ''}`} onClick={onFlip}>
 
             <div className="card-face card-front">
                 {data.frontType === 'image' ? (
