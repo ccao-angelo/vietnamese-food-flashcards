@@ -95,23 +95,25 @@ body {
 }
 
 .app-container {
-    width: 100%;
+    width: 90%;
     max-width: 500px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     margin: 0 auto;
 }
 
 .card-scene {
     perspective: 1000px;
     height: 450px;
+    width: 100%;
     margin: 20px 0;
     display: flex;
     justify-content: center;
 }
 
 .card {
-    width: 300px;
+    width: 100%;
+    max-width: 320px;
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
@@ -277,4 +279,37 @@ h3 {
 .secondary-btn:disabled {
     opacity: 0.4;
     cursor: not-allowed;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media screen and (max-width: 600px) {
+    .title-text {
+        font-size: 1.5rem;
+    }
+    .card-scene {
+        height: 400px;
+    }
+    .card-front img {
+        height: 180px;
+    }
+    .controls {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+    .primary-btn, .secondary-btn {
+        width: 100%;
+        padding: 15px;
+    }
+    .stats-container {
+        padding: 5px 15px;
+        gap: 10px;
+    }
+    .stat-label {
+        font-size: 0.6rem;
+    }
+    .stat-value {
+        font-size: 0.9rem;
+    }
 }
