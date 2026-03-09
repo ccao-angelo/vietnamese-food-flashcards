@@ -48,8 +48,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-<a href="https://i.imgur.com/ORw95gJ.gif"><img src="![Chau Cao  Vietnamese Food Flashcards Website Walkthrough](https://github.com/user-attachments/assets/fbff9343-7e80-43c7-a0d5-74bb2501244b)" title='Video Walkthrough' width='' alt='Video Walkthrough'/></a>
+![Chau Cao  Vietnamese Food Flashcards Website Walkthrough](https://github.com/user-attachments/assets/fbff9343-7e80-43c7-a0d5-74bb2501244b)
+<a href="https://i.imgur.com/ORw95gJ.gif"><img src="https://i.imgur.com/ORw95gJ.gif" title='Video Walkthrough' width='' alt='Video Walkthrough'/></a>
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
