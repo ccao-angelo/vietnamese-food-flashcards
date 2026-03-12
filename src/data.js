@@ -250,7 +250,7 @@ export const flashcardsData = [
         id: 20,
         category: "main",
         frontType: "image",
-        front: "/vietnamese-food-flashcards/images/raumuong.png",
+        front: "https://i.imgur.com/ZaaZDiM.png",
         name: "Rau Muống Xào Tỏi",
         back: {
         region: "Nationwide",
@@ -367,7 +367,7 @@ export const flashcardsData = [
         id: 29,
         category: "main",
         frontType: "image",
-        front: "/vietnamese-food-flashcards/images/comhen.png",
+        front: "https://i.imgur.com/j0NV9S7.png",
         name: "Cơm Hến",
         back: {
         region: "Huế / Central Vietnam",
