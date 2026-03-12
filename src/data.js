@@ -1,3 +1,6 @@
+import rauMuongImg from "./assets/raumuong.png";
+import comHenImg from "./assets/comhen.png";
+
 export const flashcardsData = [
     {
         id: 1,
@@ -250,7 +253,7 @@ export const flashcardsData = [
         id: 20,
         category: "main",
         frontType: "image",
-        front: "./assets/raumuong.png",
+        front: "rauMuongImg",
         name: "Rau Muống Xào Tỏi",
         back: {
         region: "Nationwide",
@@ -367,7 +370,7 @@ export const flashcardsData = [
         id: 29,
         category: "main",
         frontType: "image",
-        front: "./assets/comhen.png",
+        front: "comHenImg",
         name: "Cơm Hến",
         back: {
         region: "Huế / Central Vietnam",
