@@ -250,7 +250,7 @@ export const flashcardsData = [
         id: 20,
         category: "main",
         frontType: "image",
-        front: "./src/assets/raumuong.png",
+        front: "./assets/raumuong.png",
         name: "Rau Muống Xào Tỏi",
         back: {
         region: "Nationwide",
@@ -367,7 +367,7 @@ export const flashcardsData = [
         id: 29,
         category: "main",
         frontType: "image",
-        front: "./src/assets/comhen.png",
+        front: "./assets/comhen.png",
         name: "Cơm Hến",
         back: {
         region: "Huế / Central Vietnam",
