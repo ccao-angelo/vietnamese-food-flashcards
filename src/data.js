@@ -1,6 +1,3 @@
-import rauMuongImg from "./assets/raumuong.png";
-import comHenImg from "./assets/comhen.png";
-
 export const flashcardsData = [
     {
         id: 1,
@@ -253,7 +250,7 @@ export const flashcardsData = [
         id: 20,
         category: "main",
         frontType: "image",
-        front: rauMuongImg,
+        front: "/vietnamese-food-flashcards/images/raumuong.png",
         name: "Rau Muống Xào Tỏi",
         back: {
         region: "Nationwide",
@@ -370,7 +367,7 @@ export const flashcardsData = [
         id: 29,
         category: "main",
         frontType: "image",
-        front: comHenImg,
+        front: "/vietnamese-food-flashcards/images/comhen.png",
         name: "Cơm Hến",
         back: {
         region: "Huế / Central Vietnam",
